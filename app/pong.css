@@ -49,10 +49,10 @@ svg .chord, svg .chord text {
 }
 
 svg .group text {
-  transition: font-size .15s, font-weight .15s, fill .15s;
-  -webkit-transition: font-size .15s, font-weight .15s, fill .15s;
-  -moz-transition: font-size .15s, font-weight .15s, fill .15s;
-  -ms-transition: font-size .15s, font-weight .15s, fill .15s;
+  transition: font-size .15s, font-weight .15s;
+  -webkit-transition: font-size .15s, font-weight .15s;
+  -moz-transition: font-size .15s, font-weight .15s;
+  -ms-transition: font-size .15s, font-weight .15s;
 }
 
 svg .chord text, svg .focus .chord {
@@ -65,7 +65,6 @@ svg .focus .highlight, svg .highlight text {
 svg .focus .group.highlight text {
   opacity: 1;
   font-weight: bold;
-  fill: #000;
   font-size: 26px;
 }
 
