@@ -1,0 +1,76 @@
+body {
+  margin: 10px 0;
+}
+
+body, input, button, select, textarea {
+  font-family: Monaco, 'Courier new', Courier, monospace;
+}
+
+.main, table td, table th {
+  text-align: center !important;
+}
+
+.league ul.nav {
+  text-align: center;
+}
+.league ul.nav li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+svg circle.bg {
+  fill: #fff;
+  pointer-events: all;
+}
+
+svg .group text {
+  font-size: 20px;
+}
+
+svg .chord text {
+  font-size: 12px;
+  fill: #fff;
+}
+
+svg .chord path {
+  fill-opacity: 0.85;
+  stroke-opacity: 0.85;
+  stroke: #666;
+  stroke-width: 0.5px;
+}
+
+svg .chord, svg .chord text {
+  transition: opacity .15s;
+  -webkit-transition: opacity .15s;
+  -moz-transition: opacity .15s;
+  -ms-transition: opacity .15s;
+}
+
+svg .group text {
+  transition: font-size .15s, font-weight .15s, fill .15s;
+  -webkit-transition: font-size .15s, font-weight .15s, fill .15s;
+  -moz-transition: font-size .15s, font-weight .15s, fill .15s;
+  -ms-transition: font-size .15s, font-weight .15s, fill .15s;
+}
+
+svg .chord text, svg .focus .chord {
+  opacity: 0.05;
+}
+svg .focus .highlight, svg .highlight text {
+  opacity: 1;
+}
+
+svg .focus .group.highlight text {
+  opacity: 1;
+  font-weight: bold;
+  fill: #000;
+  font-size: 26px;
+}
+
+
+body.no-results svg .result,
+body.no-fixtures svg .fixture {
+  opacity: 0 !important;
+}

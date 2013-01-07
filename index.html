@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ping Pong</title>
+  <link rel="stylesheet" type="text/css" href="components/bootstrap.css/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="components/bootstrap.css/css/bootstrap-responsive.min.css" />
+  <link rel="stylesheet" type="text/css" href="app/pong.css" />
+</head>
+<body>
+  <div class='main'>
+    <div class="container">
+      <div class="masthead">
+        <h3 class="muted">PING PONG LEAGUE</h3>
+      </div>
+      <hr />
+    </div>
+  </div>
+
+  <script type="text/tmpl" id='league-template'>
+    <div class='row league' id='league<%= index %>'>
+      <% if (index % 2 != 0) { %>
+        <div class='span6 d3graph'></div>
+      <% } %>
+      <div class='span6'>
+        <h4><%= league.name %></h4>
+        <ul class='nav nav-pills'>
+          <li><a href='#standings<%= index %>'>Standings</a></li>
+          <li><a href='#results<%= index %>'>Results</a></li>
+          <li><a href='#schedule<%= index %>'>Scheduled</a></li>
+        </ul>
+
+        <div class='tab-content'>
+          <div id='standings<%= index %>' class='tab-pane standings'>
+            <table class='table table-bordered table-striped table-hover'>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Player</th>
+                  <th>Matches</th>
+                  <th>Score</th>
+                  <th>Average</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% _.each(players, function(player, index) { %>
+                <tr>
+                  <td><%= index+1 %></td>
+                  <td><%= player.name %></td>
+                  <td><%= player.matches %></td>
+                  <td><%= player.score %></td>
+                  <td><%= player.average %></td>
+                </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+          <div id='results<%= index %>' class='tab-pane results'>
+            <table class='table table-bordered table-striped table-hover'>
+              <thead>
+                <tr>
+                  <th colspan='2'>Won</th>
+                  <th colspan='2'>Against</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% _.each(results, function(result) { %>
+                  <tr>
+                    <td><%= result.winner.name %></td>
+                    <td><%= result.winPoints %></td>
+                    <td><%= result.againstPoints %></td>
+                    <td><%= result.against.name %></td>
+                  </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+          <div id='schedule<%= index %>' class='tab-pane schedules'>
+            <table class='table table-bordered table-striped table-hover'>
+              <thead>
+                <tr>
+                  <th>Player 1</th>
+                  <th>Player 2</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% _.each(schedules, function(schedule) { %>
+                  <tr>
+                    <td><%= schedule.player1.name %></td>
+                    <td><%= schedule.player2.name %></td>
+                  </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <% if (index % 2 == 0) { %>
+        <div class='span6 d3graph'></div>
+      <% } %>
+    </div>
+    <hr />
+  </script>
+
+  <script type="text/javascript" src="components/underscore/underscore-min.js"></script>
+  <script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="components/bootstrap.css/js/bootstrap.js"></script>
+  <script type="text/javascript" src="components/d3/d3.min.js"></script>
+  <script type="text/javascript" src="app/pong.js"></script>
+</body>
+</html>
