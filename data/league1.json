@@ -1,6 +1,6 @@
 [{
-  "name" : "Group 1",
-  "players" : [ "kathy", "matt", "akash", "argha", "champee" ],
+  "name" : "The Boss Ladies",
+  "players" : [ "Kathy", "Christine", "Deepali", "Bharti" ],
   "data" : [
     [ null, null, null, null, null ],
     [ null, null, null, null, null ],
@@ -9,8 +9,8 @@
     [ null, null, null, null, null ]
   ]
 }, {
-  "name" : "Group 2",
-  "players" : [ "christine", "wire", "batman", "faris", "vivek" ],
+  "name" : "The Muzungus",
+  "players" : [ "Matt", "Wire", "MJ", "Caesar" ],
   "data" : [
     [ null, null, null, null, null ],
     [ null, null, null, null, null ],
@@ -19,8 +19,8 @@
     [ null, null, null, null, null ]
   ]
 }, {
-  "name" : "Group 3",
-  "players" : [ "deepali", "MJ", "nishant", "naval", "akshay" ],
+  "name" : "Love All League",
+  "players" : [ "Naval", "Batman", "Nishant", "Akash" ],
   "data" : [
     [ null, null, null, null, null ],
     [ null, null, null, null, null ],
@@ -29,8 +29,18 @@
     [ null, null, null, null, null ]
   ]
 }, {
-  "name" : "Group 4",
-  "players" : [ "bharti", "caesar", "RK", "RDX", "prasanna" ],
+  "name" : "Divisible by 5",
+  "players" : [ "Argha", "Faris", "RK", "RDX" ],
+  "data" : [
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ]
+  ]
+}, {
+  "name" : "The Losers' League",
+  "players" : [ "Champee", "Vivek", "Akshay", "Prasanna" ],
   "data" : [
     [ null, null, null, null, null ],
     [ null, null, null, null, null ],
