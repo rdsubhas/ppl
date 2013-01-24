@@ -1,16 +1,36 @@
 [{
-  "name" : "League 1",
-  "players" : [ "deepali", "argha", "rajkumar", "subhas", "mj" ],
+  "name" : "Group 1",
+  "players" : [ "kathy", "matt", "akash", "argha", "champee" ],
   "data" : [
-    [ null, 21, 21, 21, 21 ],
-    [ 11, null, 15, 21, 21 ],
-    [ 17, 21, null, 15, 21 ],
-    [ 19, 17, 21, null, null ],
-    [ 20, 15, 18, null, null ]
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ]
   ]
 }, {
-  "name" : "League 2",
-  "players" : [ "kathy", "champee", "fahad", "wire", "matthew" ],
+  "name" : "Group 2",
+  "players" : [ "christine", "wire", "batman", "faris", "vivek" ],
+  "data" : [
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ]
+  ]
+}, {
+  "name" : "Group 3",
+  "players" : [ "deepali", "MJ", "nishant", "naval", "akshay" ],
+  "data" : [
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ],
+    [ null, null, null, null, null ]
+  ]
+}, {
+  "name" : "Group 4",
+  "players" : [ "bharti", "caesar", "RK", "RDX", "prasanna" ],
   "data" : [
     [ null, null, null, null, null ],
     [ null, null, null, null, null ],
