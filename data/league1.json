@@ -2,50 +2,45 @@
   "name" : "The Boss Ladies",
   "players" : [ "Kathy", "Christine", "Deepali", "Bharti" ],
   "data" : [
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ]
+    [ null, 21  , null, 21   ],
+    [ 3   , null, null, null ],
+    [ null, null, null, null ],
+    [ 17  , null, null, null ]
   ]
 }, {
   "name" : "The Muzungus",
   "players" : [ "Matt", "Wire", "MJ", "Caesar" ],
   "data" : [
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ]
+    [ null, null, null, 21   ],
+    [ null, null, null, null ],
+    [ null, null, null, 21   ],
+    [ 17  , null, 17  , null ]
   ]
 }, {
   "name" : "Love All League",
   "players" : [ "Naval", "Batman", "Nishant", "Akash" ],
   "data" : [
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ]
+    [ null, 16  , 21  , null ],
+    [ 21  , null, null, null ],
+    [ 17  , null, null, null ],
+    [ null, null, null, null ]
   ]
 }, {
   "name" : "Divisible by 5",
   "players" : [ "Argha", "Faris", "RK", "RDX" ],
   "data" : [
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ]
+    [ null, 21  , null, 16   ],
+    [ 16  , null, null, 19   ],
+    [ null, null, null, 18   ],
+    [ 21  , 21  , 21  , null ]
   ]
 }, {
   "name" : "The Losers' League",
   "players" : [ "Champee", "Vivek", "Akshay", "Prasanna" ],
   "data" : [
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ],
-    [ null, null, null, null, null ]
+    [ null, 21  , null, null ],
+    [ 11  , null, null, null ],
+    [ null, null, null, 20   ],
+    [ null, null, 21  , null ]
   ]
 }]
