@@ -11,27 +11,27 @@
   "name" : "The Muzungus",
   "players" : [ "Matt", "Wire", "MJ", "Caesar" ],
   "data" : [
-    [ null, null, null, 21   ],
+    [ null, null, 15  , 21   ],
     [ null, null, null, null ],
-    [ null, null, null, 21   ],
+    [ 21  , null, null, 21   ],
     [ 17  , null, 17  , null ]
   ]
 }, {
   "name" : "Love All League",
   "players" : [ "Naval", "Batman", "Nishant", "Akash" ],
   "data" : [
-    [ null, 16  , 21  , null ],
-    [ 21  , null, null, null ],
-    [ 17  , null, null, null ],
-    [ null, null, null, null ]
+    [ null, 16  , 21  , 21 ],
+    [ 21  , null, 21  , 21 ],
+    [ 17  , 14  , null, null ],
+    [ 18  , 20  , null, null ]
   ]
 }, {
   "name" : "Divisible by 5",
   "players" : [ "Argha", "Faris", "RK", "RDX" ],
   "data" : [
-    [ null, 21  , null, 16   ],
-    [ 16  , null, null, 19   ],
-    [ null, null, null, 18   ],
+    [ null, 21  , 21  , 16   ],
+    [ 16  , null, 21  , 19   ],
+    [ 16  , 13  , null, 18   ],
     [ 21  , 21  , 21  , null ]
   ]
 }, {
@@ -39,8 +39,8 @@
   "players" : [ "Champee", "Vivek", "Akshay", "Prasanna" ],
   "data" : [
     [ null, 21  , null, null ],
-    [ 11  , null, null, null ],
+    [ 11  , null, null, 20 ],
     [ null, null, null, 20   ],
-    [ null, null, 21  , null ]
+    [ null, 21  , 21  , null ]
   ]
 }]
