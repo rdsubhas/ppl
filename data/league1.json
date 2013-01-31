@@ -20,8 +20,8 @@
   "name" : "Love All League",
   "players" : [ "Naval", "Batman", "Nishant", "Akash" ],
   "data" : [
-    [ null, 16  , 21  , 21 ],
-    [ 21  , null, 21  , 21 ],
+    [ null, 16  , 21  , 21   ],
+    [ 21  , null, 21  , 21   ],
     [ 17  , 14  , null, null ],
     [ 18  , 20  , null, null ]
   ]
@@ -38,9 +38,9 @@
   "name" : "The Losers' League",
   "players" : [ "Champee", "Vivek", "Akshay", "Prasanna" ],
   "data" : [
-    [ null, 21  , 21  , null ],
-    [ 11  , null, 16  , 20 ],
+    [ null, 21  , 21  , 12   ],
+    [ 11  , null, 16  , 20   ],
     [ 15  , 21  , null, 20   ],
-    [ null, 21  , 21  , null ]
+    [ 21  , 21  , 21  , null ]
   ]
 }]
