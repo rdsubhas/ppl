@@ -3,9 +3,9 @@
   "players" : [ "Kathy", "Christine", "Deepali", "Bharti" ],
   "data" : [
     [ null, 21  , null, 21   ],
-    [ 3   , null, null, null ],
-    [ null, null, null, null ],
-    [ 17  , null, null, null ]
+    [ 3   , null, 21  , 13   ],
+    [ null, 10  , null, 10   ],
+    [ 17  , 21  , 21  , null ]
   ]
 }, {
   "name" : "The Muzungus",
